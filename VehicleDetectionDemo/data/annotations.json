@@ -1,0 +1,25 @@
+{
+	"images": [
+		{
+			"file": "images/frame001.jpg",
+			"objects": [
+				{
+					"x": 120,
+					"y": 85,
+					"width": 240,
+					"height": 160
+				},
+				{
+					"x": 450,
+					"y": 110,
+					"width": 320,
+					"height": 220
+				}
+			]
+		},
+		{
+			"file": "images/frame002.jpg",
+			"objects": []
+		}
+	]
+}

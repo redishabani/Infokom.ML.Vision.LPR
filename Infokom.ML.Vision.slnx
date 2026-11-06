@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Apps/" />
+  <Project Path="Infokom.ML.Models/Infokom.ML.Models.csproj" Id="d8d8babd-d003-447c-92f9-5a603dee247d" />
+  <Project Path="Infokom.ML.Vision.ANPR.Apps.CLI.ConsoleDemo/Infokom.ML.Vision.ANPR.Apps.CLI.ConsoleDemo.csproj" />
+  <Project Path="Infokom.ML.Vision.ANPR/Infokom.ML.Vision.ANPR.csproj" />
+  <Project Path="Infokom.ML.Vision/Infokom.ML.Vision.csproj" Id="768b37d4-b8e5-4cab-93f8-cabfdc5c3645" />
+  <Project Path="Infokom.Numerics/Infokom.Numerics.csproj" />
+</Solution>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CuBlasNetStandard21.CUDA12" Version="1.0.0" />
+		<PackageReference Include="Microsoft.ML.Parquet" Version="0.23.1" />
+		<PackageReference Include="OpenCvSharp4.Windows" Version="4.13.0.20260627" />
+		<PackageReference Include="Sdcb.OpenVINO" Version="0.8.1" />
+		<PackageReference Include="Sdcb.OpenVINO.PaddleOCR" Version="0.8.1" />
+		<PackageReference Include="Sdcb.OpenVINO.PaddleOCR.Models.Online" Version="0.8.1" />
+		<PackageReference Include="Sdcb.OpenVINO.runtime.win-x64" Version="2026.2.0" />
+		<PackageReference Include="YoloDotNet" Version="4.2.0" />
+		<PackageReference Include="YoloDotNet.ExecutionProvider.Cpu" Version="1.1.0" />
+		<PackageReference Include="YoloDotNet.ExecutionProvider.Cuda" Version="1.1.0" />
+		<PackageReference Include="YoloDotNet.ExecutionProvider.OpenVino" Version="1.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Infokom.ML.Vision\Infokom.ML.Vision.csproj" />
+	</ItemGroup>
+
+</Project>
